@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none;
+    
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.container{
+    padding: 50px;
+
+}
+.section-one__name{
+    font-size: 60px;
+}
+.section-one__role{
+    font-size: 30px;
+}
+.section-one__contact{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+   
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+
+
+}
+.section-five{
+    background-color: black;
+    color: white;
+    
+}
+.section-five__title{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.section-five__desc{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.section-five__title a{
+    color: aqua;
+    text-decoration: none;
+}
+.section-four{
+    background-color: blueviolet;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+    
+}
+.section-three{
+    background-color: orange;
+    display:inline-block ;
+    border-radius: 10px;
+    
+}
+.section-container{
+    display: flex;
+
+}
+.section-four__desc{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+.section-four__title{
+    padding-left: 10px;
+}
+.section-three__title{
+    padding: 10px;
+}
+.section-three__desc{
+    padding-left: 10px;
+    
+}
+.section-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-form input{
+    border: none;
+    border-bottom: 1px black solid;
+    padding: 10px;
+
+}
+.section-form tr{
+    margin-top: 100px;
+}
+.section-form textarea{
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px black solid;
+}
+.s-button{
+   
+   
+
+}
+.section-form button{
+    padding: 10px 5px 10px 5px;
+    background-color: orange;
+    color: black;
+    border: black 1px solid ;
+
+}
+
+input:focus{
+    outline: none;
+}
